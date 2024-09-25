@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.flag-select {
+    position: relative;
+    display: inline-block;
+
+}
+
+.opcja {
+    width: 100px;
+    height: 45px;
+    background-color: lightgray;
+}
+
+.country-select {
+    width: 100px;
+    height: 45px;
+    margin: 20px;
+    font-size: 16px;
+    appearance: none;
+    cursor: pointer;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    background-size: 20px 15px;
+    background-image: url('https://flagcdn.com/pl.svg');
+    background-color: lightgray;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-container input {
+    width: 1200px;
+    height: 20px;
+    padding: 10px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.search-container .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.przcisk {
+    width: 100px;
+    height: 45px;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+.kwadratD {
+    background-color: aqua;
+    width: 450px;
+    height: 450px;
+    color: white;
+    margin: 10px;
+    
+}
+
+.zdj {
+    margin: 10px;
+   float: left;
+}
+main{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+} 
+h2{
+    padding: 10px;
+}
